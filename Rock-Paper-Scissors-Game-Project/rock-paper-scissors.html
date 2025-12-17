@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- SITO PER IL GIOCO: 'SASSO-CARTA-FORBICE' -->
+    <!-- !da rifare TUTTO! -->
+    <title>Rock-Paper-Scissors Game</title>
+    <link rel="stylesheet" href="rock-paper-scissors.css" />
+  </head>
+
+  <body>
+    <p class="title">Rock Paper Scissors: The Game</p>
+
+    <div class="button-container">
+      <button onclick="playGame('rock');" class="move-button">
+        <img src="rock-emoji.png" class="move-icon" />
+      </button>
+
+      <button onclick="playGame('paper');" class="move-button">
+        <img src="paper-emoji.png" class="move-icon" />
+      </button>
+
+      <button onclick="playGame('scissors');" class="move-button">
+        <img src="scissors-emoji.png" class="move-icon" />
+      </button>
+    </div>
+
+    <p class="js-moves"></p>
+    <p class="js-result result"></p>
+    <p class="js-score score"></p>
+
+    <button
+      onclick="
+      score.wins = 0;
+      score.losses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      updateScoreElement();
+      document.querySelector('.js-moves').innerHTML = '';
+      document.querySelector('.js-result').innerHTML = '';
+    "
+      class="clear-score-button"
+    >
+      Clear Score
+    </button>
+
+    <!-- ✅ Switch tema dark -->
+    <div style="margin-top: 20px">
+      <input type="checkbox" id="dark-mode-toggle" />
+      <label for="dark-mode-toggle" class="toggle"></label>
+    </div>
+
+    <script src="rock-paper-scissors.js"></script>
+  </body>
+</html>

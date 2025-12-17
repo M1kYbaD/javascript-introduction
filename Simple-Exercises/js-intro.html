@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Intro</title>
+
+    <style>
+      body {
+        background: #c0c0c0;
+        text-align: center;
+      }
+
+      button {
+        cursor: pointer;
+        border-radius: 10px;
+        border: 2px solid #000000;
+        padding: 15px;
+        margin: 10px;
+        transition: 0.1s;
+      }
+
+      button:hover {
+        background-color: #000000;
+        color: #ffffff;
+        transition: 0.1s;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <!-- 'INLINE' JAVASCRIPT (Esegue direttamente codice JS dentro l'attributo "onclick") -->
+    <button onclick="alert('Hello World!')">Saluto "INLINE Javascript"</button>
+
+    <!-- 'INTERNAL' JAVASCRIPT (Il codice JS è scritto dentro un tag <script> nello stesso file) -->
+    <button id="button">Saluto "INTERNAL Javascript"</button>
+
+    <!-- Aggiunge un "listener" al bottone con id="button" -->
+    <!-- Quando cliccato, mostra un messaggio di saluto -->
+    <script>
+      document.getElementById("button").addEventListener("click", function () {
+        alert("Hello World!");
+      });
+    </script>
+
+    <!-- 'EXTERNAL' JAVASCRIPT (Il codice JS è caricato da un file esterno separato: "js-intro-script.js") -->
+    <button id="btn">Saluto "EXTERNAL Javascript"</button>
+    <script src="js-intro-script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PROGETTO 'Calcolo Indice Massa Corporea (IMC)' -->
+    <title>BMI Calculator</title>
+
+    <style>
+      /* Impostazioni di base per il corpo della pagina */
+      html,
+      body {
+        background: #c0c0c0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+
+      /* Titolo principale */
+      h1 {
+        margin: 25px 0;
+      }
+
+      h2 {
+        margin: 10px 0;
+      }
+
+      /* Stile del pulsante di calcolo */
+      button {
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Footer con riferimento educativo */
+      p {
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        margin: 25px 0;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><u>"BMI Calculator" Project</u></h1>
+
+    <div>
+      <button onclick="calculateBMI()">Calculate BMI</button>
+
+      <h2>Risultato: "Ispeziona" e poi "Console"</h2>
+    </div>
+
+    <!-- ================== FOOTER ================== -->
+    <p>
+      Realizzato con
+      <strong>
+        <!-- Link didattico a W3Schools per approfondire JavaScript -->
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank"
+          >JavaScript</a
+        >
+      </strong>
+    </p>
+
+    <script src="app.js"></script>
+  </body>
+</html>

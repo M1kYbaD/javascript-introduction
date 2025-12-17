@@ -1,0 +1,200 @@
+:root {
+  --bg-color: #dcdcdc;
+  --text-color: #323232;
+  --header-bg: #b92012;
+  --btn-bg: #3b82f6;
+  --btn-text: #ffffff;
+  --toggle-bg: #94a3b8;
+  --toggle-circle: #ffffff;
+}
+
+:has(#dark-mode-toggle:checked) {
+  --bg-color: #0f172a;
+  --text-color: #e2e8f0;
+  --header-bg: #1e293b;
+  --btn-bg: #14b8a6;
+  --btn-text: #0f172a;
+  --toggle-bg: #475569;
+  --toggle-circle: #0f172a;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* Toggle switch */
+#dark-mode-toggle {
+  display: none;
+}
+
+.toggle {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background: var(--toggle-bg);
+  border-radius: 30px;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.toggle::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 24px;
+  height: 24px;
+  background: var(--toggle-circle);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+#dark-mode-toggle:checked+.toggle::before {
+  transform: translateX(30px);
+}
+
+.title {
+  color: #000000;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.move-button {
+  background-color: var(--move-button-bg);
+  border: 3px solid var(--button-border);
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.result {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.score {
+  background-color: #8c8c8c;
+  width: fit-content;
+  padding: 3px;
+  border-radius: 2.5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.clear-score-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.clear-score-button:hover {
+  opacity: 0.7;
+}
+
+.clear-score-button:active {
+  opacity: 0.4;
+}
+
+/* Pulsante per il toggle 
+.theme-button {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 100px;
+  font-size: 14px;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  cursor: pointer;
+}
+
+.theme-button:hover {
+  opacity: 0.8;
+}
+
+.theme-button:active {
+  opacity: 0.6;
+}
+*/
+
+/* 
+ STILE PER IL NUOVO theme-switch -- NON UFFICIALE
+
+ Variabili tema chiaro 
+
+       Variabili tema scuro 
+      :has(#dark-mode-toggle:checked) {
+        --bg-color: #0f172a;
+        --text-color: #e2e8f0;
+        --header-bg: #1e293b;
+        --btn-bg: #14b8a6;
+        --btn-text: #0f172a;
+        --toggle-bg: #475569;
+        --toggle-circle: #0f172a;
+      }
+
+      body {
+        background: var(--bg-color);
+        color: var(--text-color);
+        font-family: sans-serif;
+        transition: background 0.2s, color 0.2s;
+      }
+
+     Toggle switch 
+      #dark-mode-toggle {
+        display: none;
+      }
+
+      .toggle {
+        display: inline-block;
+        width: 60px;
+        height: 30px;
+        background: var(--toggle-bg);
+        border-radius: 30px;
+        position: relative;
+        cursor: pointer;
+        transition: background 0.3s;
+      }
+
+      .toggle::before {
+        content: "";
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 24px;
+        height: 24px;
+        background: var(--toggle-circle);
+        border-radius: 50%;
+        transition: transform 0.3s;
+      }
+
+      #dark-mode-toggle:checked + .toggle::before {
+        transform: translateX(30px);
+      }
+*/

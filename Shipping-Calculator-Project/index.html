@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+      PROGETTO: "Calcolo Tariffe Spedizioni"
+      DESCRIZIONE: Pagina web che calcola il costo della spedizione
+      in base alla zona di destinazione e al peso del pacco.
+    -->
+    <title>Shipping Packages Calculator</title>
+
+    <!-- ================== STYLES ================== -->
+    <style>
+      /* Impostazioni di base per il corpo della pagina */
+      html,
+      body {
+        background: #c0c0c0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+      }
+
+      /* Titolo principale */
+      h1 {
+        text-align: center;
+        margin: 25px 0;
+      }
+
+      /* Campi di input per testo e numeri */
+      input {
+        margin: 5px;
+        padding: 8px;
+        font-size: 16px;
+      }
+
+      /* Stile del pulsante di calcolo */
+      button {
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin: 15px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      /* Risultato del calcolo */
+      #result {
+        margin: 10px 0;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Footer con riferimento educativo */
+      p {
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        margin: 25px 0;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Titolo della pagina -->
+    <h1><u>"Shipping - Packages Calculator" Project</u></h1>
+
+    <!-- ================== AREA DI INPUT ================== -->
+    <div>
+      <!-- Campo per inserire la zona di destinazione -->
+      <label>
+        Destination zone:
+        <input type="text" id="zone" placeholder="USA, ITA, EGY, AUS, etc." />
+      </label>
+      <br />
+
+      <!-- Campo per inserire il peso del pacco in chilogrammi -->
+      <label>
+        Package weight (kg):
+        <input type="number" id="weight" placeholder="es. 3.5, 8" />
+      </label>
+      <br />
+
+      <!-- Sezione dove verrà mostrato il risultato -->
+      <div id="result"></div>
+
+      <!-- Pulsante per avviare il calcolo del costo di spedizione -->
+      <button onclick="calculateShipping()">Calculate Shipping Cost</button>
+    </div>
+
+    <!-- ================== FOOTER ================== -->
+    <p>
+      Realizzato con
+      <strong>
+        <!-- Link didattico a W3Schools per approfondire JavaScript -->
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank"
+          >JavaScript</a
+        >
+      </strong>
+    </p>
+
+    <!-- Collegamento allo script esterno che contiene la logica del calcolo -->
+    <script src="app.js"></script>
+  </body>
+</html>

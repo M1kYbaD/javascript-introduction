@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cart Quantity Example</title>
+    <style>
+      html,
+      body {
+        background: #c0c0c0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+
+      /* Titolo principale */
+      h1 {
+        text-align: center;
+        margin: 25px 0;
+      }
+
+      .button {
+        cursor: pointer;
+        border-radius: 50px;
+        border: 3px solid #404040;
+        padding: 10px;
+        margin: 5px;
+        transition: 0.2s;
+      }
+
+      .button:hover {
+        background-color: #404040;
+        color: #ffffff;
+        transition: 0.2s;
+      }
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      /* Footer con riferimento educativo */
+      p {
+        background-color: #000000;
+        color: #ffffff;
+        text-align: center;
+        margin: 25px 0;
+        padding: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1><u>Esercizio "Carrello Spesa"</u></h1>
+
+    <div>
+      <ol>
+        <h2><li>Tasto destro e seleziona "Ispeziona"</li></h2>
+        <h2><li>Poi seleziona tab "Console"</li></h2>
+      </ol>
+
+      <button
+        class="button"
+        ,
+        onclick="
+    cartQuantity += 1;
+    console.log(`Item added!`)"
+      >
+        Add +1
+      </button>
+      <button
+        class="button"
+        ,
+        onclick="
+    cartQuantity = cartQuantity += 2;
+    console.log(`2 items added!!`)"
+      >
+        Add +2
+      </button>
+      <button
+        class="button"
+        ,
+        onclick="
+    cartQuantity = cartQuantity += 3;
+    console.log(`3 items added!!!`)"
+      >
+        Add +3
+      </button>
+
+      <button
+        class="button"
+        ,
+        onclick="
+      console.log(`Current cart quantity: ${cartQuantity}`)"
+      >
+        Show Quantity
+      </button>
+
+      <button
+        class="button"
+        ,
+        onclick="
+    cartQuantity = 0;
+    console.log('Cart is now EMPTY.')"
+      >
+        Clean Cart
+      </button>
+    </div>
+
+    <!-- ================== FOOTER ================== -->
+    <p>
+      Realizzato con
+      <strong>
+        <!-- Link didattico a W3Schools per approfondire JavaScript -->
+        <a href="https://www.w3schools.com/js/default.asp" target="_blank"
+          >JavaScript</a
+        >
+      </strong>
+    </p>
+
+    <script>
+      let cartQuantity = 0;
+
+      // Mostra messaggio all'inizio della console
+      console.log("Usa i pulsanti per azioni sul carrello.");
+    </script>
+  </body>
+</html>
