@@ -1,4 +1,4 @@
-<h1 align="center">JavaScript Introduction</h1> 
+<h1 align="center">JavaScript Introduction</h1>
 
 <p align="center"><em>This repository includes a set of simple exercises to help you learn the basics of JavaScript through practice.</em></p>
 
