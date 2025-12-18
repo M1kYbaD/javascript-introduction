@@ -10,10 +10,10 @@ This repository includes a set of simple exercises to help you learn the basics 
 
 ## List
 
-- `BMI-Project`: Calculates the Body Mass Index based on user input.
-- `Rock-Paper-Scissors-Game-Project`: A simple implementation of the classic Rock, Paper, Scissors game.
+- `BMI-Project`: Calculates the **Body Mass Index** based on user input.
+- `Rock-Paper-Scissors-Game-Project`: A simple implementation of the classic **Rock, Paper, Scissors** game.
 - `Shipping-Calculator-Project`: Computes shipping costs based on predefined rules.
-- `Simple-Exercises`: A collection of small exercises to practice JavaScript basics.
+- `Simple-Exercises`: A collection of small exercises to practice **JavaScript basics**.
 
 ## Additional Resources
 
