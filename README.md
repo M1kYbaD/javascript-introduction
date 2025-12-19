@@ -3,7 +3,7 @@
 <p align="center">
 <img src="public/javascript-logo.svg" alt="JavaScript logo" width="130px" height="130px"/>
 <br>
-<em>This repository includes a set of simple exercises to help you learn the basics of JavaScript through practice.</em>
+<em>This repository includes a set of simple exercises to help you learn the basics of JavaScript through practice and experimentation.</em>
 </p>
 
 ---
