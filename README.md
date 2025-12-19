@@ -24,7 +24,7 @@
 
 ### Browser Interactivity
 
-- Select and update DOM elements with JavaScript
+- Select and update DOM elements with **JavaScript**
 - Handle events (`clicks`, `keypresses`, `form events`, etc.)
 - Modify element styles and attributes dynamically
 
