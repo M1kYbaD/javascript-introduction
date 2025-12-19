@@ -13,7 +13,7 @@
 ### JavaScript Fundamentals
 
 - Understand `variables`, `data types`, and `operators`
-- Write and use control flow with `loops` and `conditional statements`
+- Write and use **control flow** with `loops` and `conditional statements`
 - Build and call your own `functions`
 
 ### Practical Core Concepts
