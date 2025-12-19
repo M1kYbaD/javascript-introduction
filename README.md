@@ -20,7 +20,7 @@
 
 - Manipulate arrays, objects, and strings
 - Practice working with scope and closures
-- Explore ES6+ language features (like let/const, arrow functions, template strings, etc.)
+- Explore **ES6+** language features (like let/const, arrow functions, template strings, etc.)
 
 ### Browser Interactivity
 
