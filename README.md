@@ -43,4 +43,4 @@
 
 ## Additional Resources
 
-To deepen your understanding of **JavaScript**, you can explore the tutorials on [W3Schools](https://www.w3schools.com/).
+To deepen your understanding of **JavaScript**, you can explore the tutorial on [W3Schools](https://www.w3schools.com/).
