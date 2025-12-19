@@ -30,8 +30,8 @@
 
 ### Debugging & Problem-Solving
 
-- Learn how to debug code and work through errors
-- Practice test-driven thinking if exercises include automated tests
+- Learn how to `debug` code and work through `errors`
+- Practice **test-driven thinking** if exercises include **automated tests**
 - Develop the mindset to break down tasks into manageable steps
 
 ## List
