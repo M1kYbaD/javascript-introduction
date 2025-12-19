@@ -10,9 +10,29 @@
 
 ## What You’ll Learn
 
-- `Declaring and using variables`
-- `Writing and calling functions`
-- `Using loops to repeat actions`
+### JavaScript Fundamentals
+
+- `Understand variables, data types, and operators`
+- `Write and use control flow with loops and conditional statements`
+- `Build and call your own functions`
+
+### Practical Core Concepts
+
+- `Manipulate arrays, objects, and strings`
+- `Practice working with scope and closures`
+- `Explore ES6+ language features (like let/const, arrow functions, template strings, etc.)`
+
+### Browser Interactivity
+
+- `Select and update DOM elements with JavaScript`
+- `Handle events (clicks, keypresses, form events, etc.)`
+- `Modify element styles and attributes dynamically`
+
+### Debugging & Problem-Solving
+
+- `Learn how to debug code and work through errors`
+- `Practice test-driven thinking if exercises include automated tests`
+- `Develop the mindset to break down tasks into manageable steps`
 
 ## List
 
