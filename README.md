@@ -34,7 +34,7 @@
 - Practice **test-driven thinking** if exercises include **automated tests**.
 - Develop the mindset to **break down tasks** into manageable steps.
 
-## List
+## Content
 
 - `BMI-Project`: Calculates the **Body Mass Index** based on user input.
 - `Rock-Paper-Scissors-Game-Project`: A simple implementation of the classic **Rock, Paper, Scissors** game.
