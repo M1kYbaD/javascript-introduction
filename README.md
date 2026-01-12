@@ -12,35 +12,35 @@
 
 ### JavaScript Fundamentals
 
-- Understand `variables`, `data types`, and `operators`
-- Write and use **control flow** with `loops` and `conditional statements`
-- Build and call your own `functions`
+- Understand `variables`, `data types`, and `operators`.
+- Write and use **control flow** with `loops` and `conditional statements`.
+- Build and **call** your own `functions`.
 
 ### Practical Core Concepts
 
-- Manipulate `arrays`, `objects`, and `strings`
-- Practice working with scope and closures
+- Manipulate `arrays`, `objects`, and `strings`.
+- Practice working with **scope** and **closures**.
 - Explore **ES6+** language features (like `let/const`, `arrow functions`, `template strings`, etc.)
 
 ### Browser Interactivity
 
-- Select and update DOM elements with **JavaScript**
+- Select and update **DOM elements** with **JavaScript**.
 - Handle events (`clicks`, `keypresses`, `form events`, etc.)
-- Modify element styles and attributes dynamically
+- Modify element styles and attributes **dynamically**.
 
 ### Debugging & Problem-Solving
 
-- Learn how to `debug code` and work through `errors`
-- Practice **test-driven thinking** if exercises include **automated tests**
-- Develop the mindset to **break down tasks** into manageable steps
+- Learn how to `debug code` and work through `errors`.
+- Practice **test-driven thinking** if exercises include **automated tests**.
+- Develop the mindset to **break down tasks** into manageable steps.
 
 ## List
 
 - `BMI-Project`: Calculates the **Body Mass Index** based on user input.
 - `Rock-Paper-Scissors-Game-Project`: A simple implementation of the classic **Rock, Paper, Scissors** game.
 - `Shipping-Calculator-Project`: Computes **shipping costs** based on predefined rules.
-- `Simple-Exercises`: A collection of small exercises to practice **JavaScript basics**.
+- `Simple-Exercises`: A collection of **JavaScript basics** exercises.
 
 ## Additional Resources
 
-To deepen your understanding of **JavaScript**, you can explore the tutorial on [W3Schools](https://www.w3schools.com/).
+To deepen your understanding of **JavaScript**, you can explore the tutorial on [**W3Schools**](https://www.w3schools.com/).
