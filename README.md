@@ -1,7 +1,7 @@
 <h1 align="center">JavaScript Introduction</h1>
 
 <p align="center">
-<img src="public/javascript-logo.svg" alt="JavaScript logo" width="120px" height="120px"/>
+<img src="public/javascript-logo.svg" alt="JavaScript logo" width="130px" height="130px"/>
 <br>
 <em>This repository includes a set of simple exercises to help you learn the basics of JavaScript and programming through practice and experimentation.</em>
 </p>
