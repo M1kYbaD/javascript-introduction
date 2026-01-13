@@ -39,7 +39,7 @@
 ## Contenuto
 
 - `BMI-Project`: calcola il **Body Mass Index (Indice di Massa Corporea)** in base ai dati inseriti dall’utente.
-- `Rock-Paper-Scissors-Game-Project`: una semplice implementazione del classico gioco **Carta, Forbice, Sasso**.
+- `Rock-Paper-Scissors-Game-Project`: una semplice implementazione del classico gioco **Sasso, Carta, Forbice**.
 - `Shipping-Calculator-Project`: calcola i **costi di spedizione** in base a regole predefinite.
 - `Simple-Exercises`: una raccolta di esercizi sulle **basi di JavaScript**.
 
