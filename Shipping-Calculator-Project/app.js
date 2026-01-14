@@ -8,7 +8,7 @@ function calculateShipping() {
 
   // Validate input: ensure zone is entered and weight is a positive number
   if (!zone || isNaN(weight) || weight <= 0) {
-    result.textContent = "⚠️ Please enter a valid destination and weight.";
+    result.textContent = "⚠️ Please enter a valid destination or weight.";
     return; // Stop execution if input is invalid
   }
 
