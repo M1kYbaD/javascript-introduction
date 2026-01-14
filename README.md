@@ -49,5 +49,5 @@ To deepen your understanding of **JavaScript**, you can explore the tutorial on 
 
 🌍 Read this in:
 
-- [English](README.md)
 - [Italiano](README.it.md)
+- [English](README.md)

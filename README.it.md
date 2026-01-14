@@ -4,7 +4,7 @@
 <img src="public/javascript-logo.svg" alt="Logo JavaScript" width="130px" height="130px"/>
 <br>
 <em>
-  Questo repository include una serie di esercizi semplici pensati per aiutarti a imparare le basi di JavaScript e della programmazione attraverso la pratica e la sperimentazione.
+  Questa repository include una serie di esercizi semplici pensati per aiutarti a imparare le basi di JavaScript e della programmazione attraverso la pratica e la sperimentazione.
 </em>
 </p>
 
@@ -45,7 +45,7 @@
 
 ## Risorse Aggiuntive
 
-Per approfondire **JavaScript**, puoi consultare il tutorial disponibile su [**W3Schools**](https://www.w3schools.com/js/default.asp) oppure su [**GeeksforGeeks**](https://www.geeksforgeeks.org/javascript/javascript-tutorial/).
+Per approfondire **JavaScript**, puoi consultare il tutorial su [**W3Schools**](https://www.w3schools.com/js/default.asp) oppure su [**GeeksforGeeks**](https://www.geeksforgeeks.org/javascript/javascript-tutorial/).
 
 ---
 
