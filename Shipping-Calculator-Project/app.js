@@ -13,24 +13,24 @@ function calculateShipping() {
   }
 
   // Base per kilogram rates
-  const perKgRateUS = 4; // Rate per kg for US shipments
+  const perKgRateUSA = 4; // Rate per kg for USA shipments
   const perKgRateOther = 6; // Rate per kg for all other destinations
 
-  // --- Calculate shipping cost for US destinations ---
-  function calculateUS(weight) {
+  // --- Calculate shipping cost for USA destinations ---
+  function calculateUSA(weight) {
     if (weight <= 1) {
       // Light packages (≤1 kg)
-      return 10 + weight * perKgRateUS;
+      return 10 + weight * perKgRateUSA;
     } else if (weight <= 5) {
       // Medium packages (1–5 kg)
-      return 20 + weight * perKgRateUS;
+      return 20 + weight * perKgRateUSA;
     } else {
       // Heavy packages (>5 kg)
-      return 30 + weight * perKgRateUS;
+      return 30 + weight * perKgRateUSA;
     }
   }
 
-  // --- Calculate shipping cost for 'non-US' destinations ---
+  // --- Calculate shipping cost for 'non-USA' destinations ---
   function calculateOther(weight) {
     if (weight <= 1) {
       // Light packages (≤1 kg)
@@ -45,7 +45,7 @@ function calculateShipping() {
   }
 
   // Determine which function to use based on zone
-  const cost = zone === "USA" ? calculateUS(weight) : calculateOther(weight);
+  const cost = zone === "USA" ? calculateUSA(weight) : calculateOther(weight);
 
   // Format cost to two decimal places
   const formattedCost = cost.toFixed(2);
