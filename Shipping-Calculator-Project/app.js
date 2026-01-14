@@ -1,4 +1,4 @@
-// 🚚 Shipping - Cost Calculator
+// Shipping Cost Calculator
 
 function calculateShipping() {
   // Get user input: destination zone and package weight
@@ -51,5 +51,5 @@ function calculateShipping() {
   const formattedCost = cost.toFixed(2);
 
   // Display the final shipping cost to the user
-  result.textContent = `${zone} shipping cost: $${formattedCost}`;
+  result.textContent = `Shipping cost to ${zone}: $${formattedCost}`;
 }
