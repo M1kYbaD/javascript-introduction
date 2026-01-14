@@ -32,7 +32,7 @@
 
 ### Debugging e Problem Solving
 
-- Imparare a fare `debug` del codice e a risolvere gli `errori`.
+- Imparare a fare **debug del codice** e a risolvere gli `errori`.
 - Allenare un approccio **orientato ai test**, se gli esercizi includono **test automatici**.
 - Sviluppare la capacità di **scomporre un problema** in passaggi più semplici.
 
