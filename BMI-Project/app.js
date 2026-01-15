@@ -57,8 +57,8 @@ function calculateBMI() {
   );
 
   console.log(
-    `${title} ${firstName} ${lastName}, your BMI is ${bmi.toFixed(
+    `${title} ${firstName} ${lastName}, your BMI is '${bmi.toFixed(
       1
-    )} (${bmiCategory})`
+    )}' (${bmiCategory})`
   );
 }
