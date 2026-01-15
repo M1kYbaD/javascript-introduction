@@ -51,6 +51,11 @@ function calculateBMI() {
 
   // OUTPUT
   let title = gender === "M" ? "Mr." : "Ms.";
+
+  console.log(
+    `Patient: ${firstName} ${lastName}, ${gender}, ${age}, ${weight} kg, ${height} m`
+  );
+
   console.log(
     `${title} ${firstName} ${lastName}, your BMI is ${bmi.toFixed(
       1
