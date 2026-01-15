@@ -14,22 +14,28 @@
       /* Titolo principale */
       h1 {
         text-align: center;
-        margin: 25px 0;
+        margin: 0 0 25px;
       }
 
       .button {
         cursor: pointer;
         border-radius: 50px;
-        border: 3px solid #404040;
+        border: 2px solid #404040;
         padding: 10px;
-        margin: 5px;
-        transition: 0.2s;
+        transition: 0.15s;
       }
 
       .button:hover {
         background-color: #404040;
         color: #ffffff;
-        transition: 0.2s;
+        transition: 0.15s;
+      }
+
+      .buttons-container {
+        display: flex;
+        justify-content: center; /* horizontal centering */
+        flex-wrap: wrap; /* allows wrapping on small screens */
+        gap: 12px; /* spacing between buttons */
       }
 
       a {
@@ -55,60 +61,49 @@
   <body>
     <h1><u>Esercizio "Carrello Spesa"</u></h1>
 
-    <div>
+    <div style="margin-bottom: 50px">
       <ol>
         <h2><li>Tasto destro e seleziona "Ispeziona"</li></h2>
         <h2><li>Poi seleziona tab "Console"</li></h2>
       </ol>
 
-      <button
-        class="button"
-        ,
-        onclick="
-    cartQuantity += 1;
-    console.log(`Item added!`)"
-      >
-        Add +1
-      </button>
-      <button
-        class="button"
-        ,
-        onclick="
-    cartQuantity = cartQuantity += 2;
-    console.log(`2 items added!!`)"
-      >
-        Add +2
-      </button>
-      <button
-        class="button"
-        ,
-        onclick="
-    cartQuantity = cartQuantity += 3;
-    console.log(`3 items added!!!`)"
-      >
-        Add +3
-      </button>
+      <div class="buttons-container">
+        <button
+          class="button"
+          onclick="cartQuantity += 1; console.log(`Item added!`)"
+        >
+          Add +1
+        </button>
 
-      <button
-        class="button"
-        ,
-        onclick="
-      console.log(`Current cart quantity: ${cartQuantity}`)"
-      >
-        Show Quantity
-      </button>
+        <button
+          class="button"
+          onclick="cartQuantity += 2; console.log(`2 items added!!`)"
+        >
+          Add +2
+        </button>
 
-      <button
-        class="button"
-        ,
-        onclick="
-    cartQuantity = 0;
-    console.log('Cart is now EMPTY.')"
-      >
-        Clean Cart
-      </button>
+        <button
+          class="button"
+          onclick="cartQuantity += 3; console.log(`3 items added!!!`)"
+        >
+          Add +3
+        </button>
+
+        <button
+          class="button"
+          onclick="console.log(`Current cart quantity: ${cartQuantity}`)"
+        >
+          Show Quantity
+        </button>
+
+        <button
+          class="button"
+          onclick="cartQuantity = 0; console.log('Cart is now EMPTY.')"
+        >
+          Clean Cart
+        </button>
+      </div>
     </div>
-
     <!-- ================== FOOTER ================== -->
     <p>
       Realizzato con
@@ -124,7 +119,7 @@
       let cartQuantity = 0;
 
       // Mostra messaggio all'inizio della console
-      console.log("Usa i pulsanti per azioni sul carrello.");
+      console.log("Usa i pulsanti per effettuare azioni sul carrello.");
     </script>
   </body>
 </html>
