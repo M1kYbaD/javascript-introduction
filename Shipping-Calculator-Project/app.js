@@ -1,7 +1,7 @@
 // Shipping Cost Calculator
 
 function calculateShipping() {
-  // Get user input: destination zone and package weight
+  // Get user input: origin zone, destination zone and package weight
   const originZone = document
     .getElementById("originZone")
     .value.trim()
