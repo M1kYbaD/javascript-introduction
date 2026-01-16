@@ -43,7 +43,7 @@
 
 ## Additional Resources
 
-To deepen your understanding of **JavaScript**, you can explore the tutorial on [**W3Schools**](https://www.w3schools.com/js/default.asp) or [**GeeksforGeeks**](https://www.geeksforgeeks.org/javascript/javascript-tutorial/).
+To deepen your understanding of **JavaScript**, you can explore the tutorials on [**W3Schools**](https://www.w3schools.com/js/default.asp) or [**GeeksforGeeks**](https://www.geeksforgeeks.org/javascript/javascript-tutorial/).
 
 ---
 

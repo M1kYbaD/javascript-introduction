@@ -45,7 +45,7 @@
 
 ## Risorse Aggiuntive
 
-Per approfondire **JavaScript**, puoi consultare il tutorial su [**W3Schools**](https://www.w3schools.com/js/default.asp) oppure su [**GeeksforGeeks**](https://www.geeksforgeeks.org/javascript/javascript-tutorial/).
+Per approfondire **JavaScript**, puoi consultare il tutorial su [**W3Schools**](https://www.w3schools.com/js/default.asp) o su [**GeeksforGeeks**](https://www.geeksforgeeks.org/javascript/javascript-tutorial/).
 
 ---
 
